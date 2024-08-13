@@ -219,5 +219,76 @@ const multiResult = calculator.multi(minusResult, 3);
 const divideResult = calculator.divide(plusResult, minusResult);
 */
 
+//Conditionals
+/*
+//function prompt(message?: string, _default?: string): string | null
+// const age = prompt("How old are you?");     //사용자가 입력하길 기다림.
 
+// //string type -> Int type
+// console.log(typeof age, typeof parseInt(age));       //string number >> 각 타입 결과 출력
 
+// //각 결과 출력
+// console.log(age, parseInt(age));    //만약 age에 입력된 값이 숫자가 아니라면 parseInt는 NaN(Not a Number) 출력
+
+const age = parseInt(prompt("How old are you?"));     //한번에 표현. 내부에서 외부로 실행.
+console.log(age);
+*/
+
+//Conditional 2 - isNaN, if
+/*
+const age = parseInt(prompt("How old are you?"));
+//isNaN : age값이 숫자 > return false 숫자가 아니면 > return true
+
+if (isNaN(age)) {      //condition has to be a boolean
+    //condition === true이면 NaN 이므로 아래 문장 실행
+    console.log("Please write a number.");
+} else {
+    console.log("Thank you for writing your age.");
+}
+*/
+
+//Conditional 3 - else if
+/*
+const age = parseInt(prompt("How old are you?"));
+
+if (isNaN(age) || age < 0) {
+    console.log("Please write a real positive number.");
+} else if (age < 18) {
+    console.log("You are too young.");
+} else if (age >= 18 && age <= 50) {        //두 조건 true일 경우 실행
+    console.log("You can drink");
+} else if (age > 50 && age <= 80) {
+    console.log("You should exercise.");
+} else if(age > 80) {
+    console.log("You can do whatever you want.");
+}
+
+//true && true === true
+//false && true === false
+//true && false === false
+//false && false === false
+
+//true || true === true
+//false || true === true
+//true || false === true
+//false || false === false
+*/
+
+//Recap
+/*
+const age = parseInt(prompt("How old are you?"));
+
+if (isNaN(age) || age < 0) {
+    console.log("Please write a real positive number.");
+} else if (age < 18) {
+    console.log("You are too young.");
+} else if (age >= 18 && age <= 50) {        //두 조건 true일 경우 실행
+    console.log("You can drink");
+} else if (age > 50 && age <= 80) {
+    console.log("You should exercise.");
+} else if (age === 100) {       //!== 100 이면 100이 아니라면 실행됨.
+    console.log("wow you are wise");
+} else if(age > 80) {
+    console.log("You can do whatever you want.");
+} 
+*/
