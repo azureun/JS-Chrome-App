@@ -31,21 +31,23 @@ console.dir(title2);
 */
 
 //Events
-/*
-// //지난 시간 복습
-// const title = document.querySelector("div.hello:fisrt-child h1");
-// console.dir(title);
-// title.style.color = "blue";
+
+const title = document.querySelector("div.hello:first-child h1");
 
 
-const title = document.querySelector("div.hello\\:fisrt-child h1");
+console.dir(title);
+//property 이름 앞에 on -> event listener
 
-function handleTitleClick() {
+function handleTitleClick() {       //title 클릭 시, blue 색상으로 title이 변경되는 함수
     title.style.color = "blue";
 }
 
+function handleMouseEnter(){
+    console.log("mouse is here!");
+}
+
+//click event가 진행되면 handleTitleClick 함수가 동작함. title 클릭 시 실행.
 title.addEventListener("click", handleTitleClick);
-//click event가 진행되면 handleTitleClick이라는 함수가 동작함.
-*/
+title.addEventListener("mouseenter",handleMouseEnter);
 
 
