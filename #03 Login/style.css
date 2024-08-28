@@ -1,0 +1,20 @@
+body {
+    background-color: powderblue;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    color: cornflowerblue;
+    transition:color 0.5s ease-in-out;
+}
+
+.clicked {
+    color:tomato;
+}
+
+.cool-font {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

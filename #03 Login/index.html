@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <form class="hidden" id="login-form" >    <!--class="hidden" : 페이지 아무것도 안뜸. css확인!-->
+        <input 
+            required
+            maxlength="15"
+            type="text"
+            placeholder="What is your name?" 
+        />
+        <!--form의 default behavior는 submit-->
+        <input type="submit" value="Log In"/>
+    </form>
+
+    <h1 id="greeting" class="hidden"></h1>    <!--로그인 후, form은 숨기고 h1은 나타나게-->
+    <!--<a href = "https://www.google.com/">Go to Google</a>-->
+
+    <script src = "app.js"></script>
+</body>
+</html>
