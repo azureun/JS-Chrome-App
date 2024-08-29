@@ -16,4 +16,7 @@ JS 크롬 앱 만들기
 현재 시간을 시, 분, 초로 나타내는 getClock 함수를 이용하여 시계 구현
 
 ## #05 Quotes & Background
-- 
+- Math 함수들(floor():하한, random() : 랜덤 함수) 이용하여 랜덤 명언, 이미지 띄움.
+- document.createElement("img"); //img : html tag 자리에 img 경로 넣어줌.
+- document.body.append(bgImage);     //웹사이트 가장 위에 이미지 띄움.
+- document.body.prepend(bgImage);     //웹사이트 가장 아래에 이미지 띄움.
