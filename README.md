@@ -25,7 +25,7 @@ JS 크롬 앱 만들기
 - localStorage를 이용한 toDoList 삽입, 삭제 구현
 - .filter() 함수로 toDos 배열 중 지우고 싶은 원소 제외한 새로운 배열을 형성,
 - saveToDos()로 제외한 toDos의 새로운 배열 결과를 localStorage(DB)에도 적용.
-- ```javascript echo
+```javascript echo
   function saveToDos(){
     localStorage.setItem(TODOS_KEY, JSON.stringify(toDos));
   }
