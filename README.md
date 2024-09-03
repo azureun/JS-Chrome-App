@@ -28,4 +28,5 @@ JS 크롬 앱 만들기
 - ```javascript echo
   function saveToDos(){
     localStorage.setItem(TODOS_KEY, JSON.stringify(toDos));
-}```
+  }
+```
