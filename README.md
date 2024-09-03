@@ -22,5 +22,5 @@ JS 크롬 앱 만들기
 - document.body.prepend(bgImage);    &emsp;//웹사이트 가장 위에 이미지 띄움.
 
 ## #06 To do List
-- localStorage를 이용한 toDoList 삽입, 작제 구현
+- localStorage를 이용한 toDoList 삽입, 삭제 구현
 
