@@ -30,3 +30,6 @@ JS 크롬 앱 만들기
     localStorage.setItem(TODOS_KEY, JSON.stringify(toDos));
   }
 ```
+
+## #07 Wheather
+- OpenWheater를 이용한 현재 위치 날씨 정보 불러오기
