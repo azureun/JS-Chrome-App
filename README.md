@@ -30,6 +30,36 @@ JS 크롬 앱 만들기
     localStorage.setItem(TODOS_KEY, JSON.stringify(toDos));
   }
 ```
+<실행 화면> 
+<br>
+[로그인 전] 
+<br>
+- localStorage 상태
+
+![image](https://github.com/user-attachments/assets/446756cd-93d9-4e7f-93df-8f553e6213e1)
+- 페이지 상태
+![image](https://github.com/user-attachments/assets/79e75c3c-cbdd-428a-b653-588de309332d)
+<br>
+
+[로그인 입력]
+<br>
+
+- 페이지 상태
+
+![image](https://github.com/user-attachments/assets/541e11da-88fc-4310-8cae-f87f100aebe6)
+<br>
+
+[로그인 후]
+<br>
+
+- localStorage 상태
+
+![image](https://github.com/user-attachments/assets/aa5fe4dd-06ea-4345-8d5e-ee5762f02bdf)
+
+- 페이지 상태
+
+![image](https://github.com/user-attachments/assets/b6342cd4-9d84-4586-aae4-410776e40cdc)
+<br>
 
 ## #07 Wheather
 - OpenWheater를 이용한 현재 위치 날씨 정보 불러오기
