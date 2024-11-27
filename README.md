@@ -13,7 +13,7 @@ JS 크롬 앱 만들기
 <실행 화면> 
 <br>
 
-### 로그인 전
+> ### 로그인 전
 <br>
 - localStorage 상태
 
@@ -22,7 +22,7 @@ JS 크롬 앱 만들기
 ![image](https://github.com/user-attachments/assets/79e75c3c-cbdd-428a-b653-588de309332d)
 <br>
 
-### 로그인 입력
+> ### 로그인 입력
 <br>
 
 - 페이지 상태
@@ -30,7 +30,7 @@ JS 크롬 앱 만들기
 ![image](https://github.com/user-attachments/assets/541e11da-88fc-4310-8cae-f87f100aebe6)
 <br>
 
-### 로그인 후
+> ### 로그인 후
 <br>
 
 - localStorage 상태
@@ -60,6 +60,16 @@ JS 크롬 앱 만들기
     localStorage.setItem(TODOS_KEY, JSON.stringify(toDos));
   }
 ```
+> ### todo 입력 전
+![image](https://github.com/user-attachments/assets/fd087787-33da-4ac7-8eaa-c87d76e137b9)
+
+> ### todo 입력 후
+- localStorage의 value에 할 일 목록들이 저장된 걸 확인할 수 있다.
+![image](https://github.com/user-attachments/assets/ad774d73-3eaa-4286-bc55-5ccae4c80b02)
+
+> ### todo 삭제 후 (x 버튼 눌렀을 때)
+- localStorage의 value의 todo1이 사라진 걸 확인할 수 있다.
+![image](https://github.com/user-attachments/assets/4f4a3ec7-6d1a-4a39-9afc-fff1016eb8a1)
 
 
 ## #07 Wheather
